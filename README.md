@@ -42,32 +42,6 @@ Visual Reports & Web Demo Interface (Role D)
 | C | Training loop, metrics (IoU, F1, Recall), confusion matrix |
 | D | Innovation strategy, reporting, web demo (Streamlit) |
 
----
-
-## 🗂️ Repository Structure
-vasudha-ai/
-│
-├── data/ # Input from Role A
-│ ├── images/ # Satellite tiles
-│ ├── masks/ # Segmentation masks
-│ └── split/ # train.txt / val.txt / test.txt
-│
-├── models/ # Input from Role B
-│ ├── unet.py # Model architecture
-│ └── losses.py # DiceLoss, FocalLoss, etc.
-│
-├── training_evaluation_pipeline/ # Role C
-│ ├── train.py # Training script
-│ ├── metrics.py # IoU, F1, Recall
-│ ├── utils.py # Data loading, plots
-│ ├── config.py # Paths, hyperparameters
-│ └── runs/ # Logs, saved models, results
-│
-├── demo_app/ # Role D
-│ └── streamlit_app.py # Streamlit web demo
-│
-├── requirements.txt # Required Python packages
-└── README.md # Project summary
 
 ---
 
